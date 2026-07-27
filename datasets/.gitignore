@@ -1,0 +1,9 @@
+downloaded/
+*.fastq
+*.fastq.gz
+*.bam
+*.bed
+*.bed.gz
+*.tar
+*.h5
+*.h5ad

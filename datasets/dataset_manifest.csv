@@ -1,0 +1,8 @@
+dataset,repository,accession,source_url,notes
+Jurkat-293T mixture,10x Genomics,,https://www.10xgenomics.com/datasets/50-percent-50-percent-jurkat-293-t-cell-mixture-1-standard-1-1-0,10x dataset page; download the processed Cell Ranger matrix used in the analysis.
+PBMC68k,10x Genomics,,https://www.10xgenomics.com/datasets/fresh-68-k-pbm-cs-donor-a-1-standard-1-1-0,Fresh 68k PBMC Donor A.
+CBMC/CITE-seq,NCBI GEO,GSE100866,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100866,Processed CBMC RNA matrix is available from GEO.
+Zeisel mouse brain,NCBI GEO,GSE60361,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE60361,Processed expression matrix available from GEO.
+Yan,NCBI GEO,GSE36552,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE36552,Raw archive is very large; use GEO/SRA rather than normal Git storage.
+Pollen,NCBI SRA,SRP041736,https://www.ncbi.nlm.nih.gov/sra/?term=SRP041736,Use NCBI SRA Toolkit for sequence retrieval.
+Darmanis,NCBI GEO,GSE67835,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE67835,Processed supplementary RAW.tar archive available from GEO.
