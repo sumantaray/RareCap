@@ -1,21 +1,43 @@
+# RareCapsNet
 
-# RareCapsNet: Interpretable Capsule Network for Rare Cell Identification
+RareCapsNet is an interpretable capsule-network framework for identifying rare
+cell populations in single-cell transcriptomic data and examining
+capsule-associated gene signals.
 
-This repository contains code and data to reproduce the experiments in the RareCapsNet manuscript (submitted to PLOS Computational Biology).
+This repository currently contains a partial reproducibility package for the
+available RareCapsNet analyses.
 
-## 🔧 Dependencies
+## Repository contents
 
-- Python 3.8+
-- PyTorch >= 1.10
-- NumPy, SciPy
-- Scanpy
-- Linnorm (via R or Python wrapper)
-- matplotlib, seaborn
-- scikit-learn
+- `notebooks/`: Jurkat and simulation analysis notebooks. Stored outputs have
+  been removed to keep the repository compact.
+- `scripts/`: Python and R analysis scripts.
+- `datasets/`: Public-dataset manifest and download instructions.
+- `data/simulated/`: Included S1 and S3 simulated expression matrices and
+  labels.
+- `data/processed/`: Small processed data used by the analysis notebooks.
+- `results/jurkat/`: Jurkat coupling and selected-gene results.
+- `figures/`: Workflow and simulation figures in PDF and SVG formats.
 
-Use the following to set up your environment:
+## Python environment
 
 ```bash
 conda create -n rarecap python=3.8
 conda activate rarecap
 pip install -r requirements.txt
+```
+
+The notebooks use PyTorch, NumPy, pandas, scikit-learn, and Matplotlib. The R
+analysis uses packages including `ComplexHeatmap`, `RColorBrewer`, and
+`ggplot2`.
+
+## Data
+
+Public datasets remain hosted by their original repositories. See
+[`datasets/README.md`](datasets/README.md) for identifiers and download
+instructions. The included S1 and S3 simulation files are located under
+`data/simulated/`.
+
+Some notebooks retain the original research filenames or input-path
+assumptions. Adjust the input paths to the corresponding local dataset before
+running an analysis.
