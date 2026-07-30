@@ -38,6 +38,4 @@ Public datasets remain hosted by their original repositories. See
 instructions. The included S1 and S3 simulation files are located under
 `data/simulated/`.
 
-Some notebooks retain the original research filenames or input-path
-assumptions. Adjust the input paths to the corresponding local dataset before
-running an analysis.
+
